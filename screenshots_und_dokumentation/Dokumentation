@@ -1,0 +1,18 @@
+Navigation:
+Die App verwendet eine 'TabBar' und 'TabBarView' zur Navigation zwischen sechs Seiten.
+- 'TabBar': Tabs für Startseite, Über mich, Lebenslauf, Fähigkeiten, Hobbys, Kontakt.
+- 'TabBarView': Zeigt die jeweilige Seite beim Wechseln der Tabs.
+
+Hauptkomponenten:
+- 'MyApp': Initialisiert die App mit MaterialApp und setzt 'MainScreen' als Home.
+- 'MainScreen': StatefulWidget, das den 'TabController' initialisiert und die 'TabBar' sowie 'TabBarView' verwaltet.
+
+Seiten:
+Alle Seiten sind in 'BackgroundContainer' eingebettet, das einheitliche Hintergründe bereitstellt.
+
+1. 'HomePage': Begrüßungstext
+2. 'AboutPage': Informationen über die Person
+3. 'ResumePage': Lebenslauf mit ListTiles
+4. 'SkillsPage': Fähigkeiten mit Chips
+5. 'HobbiesPage': Hobbys mit ListTiles
+6. 'ContactPage': Kontaktinformationen mit ListTiles
