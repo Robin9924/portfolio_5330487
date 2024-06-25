@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="984adcfd-132b-4741-93d7-06d3a651aaf2" name="Changes" comment="Create workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_5330487/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +60,7 @@
       <recent name="C:\Users\Robin Schenk\Documents\GitHub\portfolio_5330487\screenshots_und_dokumentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main.dart">
-    <configuration name="basis_code.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code.dart" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Flutter.test.dart">
     <configuration name="basis_code_änderungen_2.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code_änderungen_2.dart" />
       <method v="2" />
@@ -81,13 +77,17 @@
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/portfolio_app.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="test.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/test.dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.test.dart" />
         <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.portfolio_app.dart" />
         <item itemvalue="Flutter.basis_code_änderungen.dart" />
         <item itemvalue="Flutter.basis_code_änderungen_2.dart" />
-        <item itemvalue="Flutter.basis_code.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718300734306</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create workspace.xml">
+      <option name="closed" value="true" />
+      <created>1719324050270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719324050270</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create workspace.xml">
+      <option name="closed" value="true" />
+      <created>1719324445938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719324445938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

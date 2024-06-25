@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         textTheme: TextTheme(
-          headline4: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+          headlineMedium: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
         ),
       ),
       home: MainScreen(),
@@ -108,7 +108,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Willkommen zu meiner Portfolio-App!',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
               textAlign: TextAlign.center,
             ),
           ],
@@ -129,7 +129,7 @@ class AboutPage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Über mich',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             SizedBox(height: 16),
             Row(
@@ -163,7 +163,7 @@ class AboutPage extends StatelessWidget {
                           'Ich treibe regelmäßig Kraftsport. '
                           'Motivation allein reicht nicht, denn '
                           'Disziplin ist der Schlüssel zum Erfolg.',
-                      style: Theme.of(context).textTheme.bodyText1,
+                      style: Theme.of(context).textTheme.bodyLarge,
                     ),
                   ),
                 ),
@@ -186,7 +186,7 @@ class ResumePage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Lebenslauf',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             SizedBox(height: 16),
             Card(
@@ -228,7 +228,7 @@ class SkillsPage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Fähigkeiten',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             SizedBox(height: 16),
             Wrap(
@@ -262,7 +262,7 @@ class HobbiesPage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Hobbys',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             SizedBox(height: 16),
             Card(
@@ -303,7 +303,7 @@ class ContactPage extends StatelessWidget {
           children: <Widget>[
             Text(
               'Kontakt',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
             SizedBox(height: 16),
             Card(
