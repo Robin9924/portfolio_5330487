@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="984adcfd-132b-4741-93d7-06d3a651aaf2" name="Changes" comment="Create workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio_5330487.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio_5330487.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio_5330487/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,27 +37,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/Users/Robin Schenk/Documents/GitHub/portfolio_5330487/screenshots_und_dokumentation",
-    "settings.editor.selected.configurable": "dart.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Robin Schenk/Documents/GitHub/portfolio_5330487/screenshots_und_dokumentation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dart.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Robin Schenk\Documents\GitHub\portfolio_5330487\screenshots_und_dokumentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.portfolio_app.dart">
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="basis_code.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code.dart" />
       <method v="2" />
@@ -71,21 +73,21 @@
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code_änderungen.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" />
+      <method v="2" />
+    </configuration>
     <configuration name="portfolio_app.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/portfolio_app.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="test.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/test.dart" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter.main.dart" />
         <item itemvalue="Flutter.portfolio_app.dart" />
         <item itemvalue="Flutter.basis_code_änderungen.dart" />
         <item itemvalue="Flutter.basis_code_änderungen_2.dart" />
         <item itemvalue="Flutter.basis_code.dart" />
-        <item itemvalue="Flutter.test.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714116702301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create workspace.xml">
+      <option name="closed" value="true" />
+      <created>1718300539300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718300539300</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create workspace.xml">
+      <option name="closed" value="true" />
+      <created>1718300734306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718300734306</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
