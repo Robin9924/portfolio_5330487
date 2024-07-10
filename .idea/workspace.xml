@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="984adcfd-132b-4741-93d7-06d3a651aaf2" name="Changes" comment="Create workspace.xml" />
+    <list default="true" id="984adcfd-132b-4741-93d7-06d3a651aaf2" name="Changes" comment="Create workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_5330487/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_5330487/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/0_Startseite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/1_Ueber_mich.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/2_Lebenslauf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/3_Faehigkeiten.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/4_Hobbys.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots_und_dokumentation/5_Kontakt.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +67,7 @@
       <recent name="C:\Users\Robin Schenk\Documents\GitHub\portfolio_5330487\screenshots_und_dokumentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.test.dart">
-    <configuration name="basis_code_änderungen_2.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code_änderungen_2.dart" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="basis_code_änderungen.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/basis_code_änderungen.dart" />
       <method v="2" />
@@ -78,13 +84,18 @@
       <option name="filePath" value="$PROJECT_DIR$/portfolio_5330487/lib/test.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="tests in widget_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/portfolio_5330487/test/widget_test.dart" />
+      <option name="useRegexp" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flutter.test.dart" />
         <item itemvalue="Flutter.main.dart" />
+        <item itemvalue="Flutter Test.tests in widget_test.dart" />
+        <item itemvalue="Flutter.test.dart" />
         <item itemvalue="Flutter.portfolio_app.dart" />
         <item itemvalue="Flutter.basis_code_änderungen.dart" />
-        <item itemvalue="Flutter.basis_code_änderungen_2.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719325923897</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create workspace.xml">
+      <option name="closed" value="true" />
+      <created>1719326024048</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719326024048</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

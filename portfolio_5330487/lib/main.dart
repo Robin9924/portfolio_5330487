@@ -159,8 +159,7 @@ class AboutPage extends StatelessWidget {
                       ],
                     ),
                     child: Text(
-                      'Ich bin Robin, 25 Jahre alt und Student an der THM. '
-                          'Ich treibe regelmäßig Kraftsport. '
+                      'Ich bin Robin, 25 Jahre alt und Student. '
                           'Motivation allein reicht nicht, denn '
                           'Disziplin ist der Schlüssel zum Erfolg.',
                       style: Theme.of(context).textTheme.bodyLarge,
@@ -193,14 +192,14 @@ class ResumePage extends StatelessWidget {
               child: ListTile(
                 leading: Icon(Icons.school),
                 title: Text('Laufendes Studium'),
-                subtitle: Text('Wirtschaftsinformatik an der THM in Friedberg (Hessen)'),
+                subtitle: Text('Wirtschaftsinformatik'),
               ),
             ),
             Card(
               child: ListTile(
                 leading: Icon(Icons.work),
                 title: Text('Aus- und Weiterbildung'),
-                subtitle: Text('Jahrespraktikum beim Jobcenter in Friedberg (Hessen)'),
+                subtitle: Text('Jahrespraktikum beim Jobcenter'),
               ),
             ),
             Card(
@@ -276,14 +275,14 @@ class HobbiesPage extends StatelessWidget {
               child: ListTile(
                 leading: Icon(Icons.fitness_center),
                 title: Text('Fitnessstudio'),
-                subtitle: Text('Weighted Calisthenics'),
+                subtitle: Text('Regelmäßig'),
               ),
             ),
             Card(
               child: ListTile(
                 leading: Icon(Icons.spa),
                 title: Text('Sauna'),
-                subtitle: Text('Nach dem Training'),
+                subtitle: Text('Regelmäßig'),
               ),
             ),
           ],
@@ -294,6 +293,11 @@ class HobbiesPage extends StatelessWidget {
 }
 
 class ContactPage extends StatelessWidget {
+  final _formKey = GlobalKey<FormState>();
+  final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _messageController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return BackgroundContainer(
@@ -307,24 +311,60 @@ class ContactPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Card(
-              child: ListTile(
-                leading: Icon(Icons.email),
-                title: Text('E-Mail'),
-                subtitle: Text('robin.thornton.schenk@mnd.thm.de'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.phone),
-                title: Text('Telefon'),
-                subtitle: Text('Keine Angabe'),
-              ),
-            ),
-            Card(
-              child: ListTile(
-                leading: Icon(Icons.location_on),
-                title: Text('Adresse'),
-                subtitle: Text('Keine Angabe'),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Form(
+                  key: _formKey,
+                  child: Column(
+                    children: <Widget>[
+                      TextFormField(
+                        controller: _nameController,
+                        decoration: InputDecoration(labelText: 'Name'),
+                        validator: (value) {
+                          if (value == null || value.isEmpty) {
+                            return 'Bitte geben Sie Ihren Namen ein';
+                          }
+                          return null;
+                        },
+                      ),
+                      TextFormField(
+                        controller: _emailController,
+                        decoration: InputDecoration(labelText: 'E-Mail'),
+                        validator: (value) {
+                          if (value == null || value.isEmpty) {
+                            return 'Bitte geben Sie Ihre E-Mail-Adresse ein';
+                          } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
+                            return 'Bitte geben Sie eine gültige E-Mail-Adresse ein';
+                          }
+                          return null;
+                        },
+                      ),
+                      TextFormField(
+                        controller: _messageController,
+                        decoration: InputDecoration(labelText: 'Nachricht'),
+                        maxLines: 5,
+                        validator: (value) {
+                          if (value == null || value.isEmpty) {
+                            return 'Bitte geben Sie eine Nachricht ein';
+                          }
+                          return null;
+                        },
+                      ),
+                      SizedBox(height: 16),
+                      ElevatedButton(
+                        onPressed: () {
+                          if (_formKey.currentState?.validate() == true) {
+                            // Hier kann man die Logik zum Senden der Nachricht hinzufügen
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              SnackBar(content: Text('Nachricht gesendet')),
+                            );
+                          }
+                        },
+                        child: Text('Senden'),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ),
           ],
